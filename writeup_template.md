@@ -23,7 +23,7 @@ Goals:
 
 My pipeline to find lane lines consists of 7 steps. (After reading in the image)
 1. change the image to gray scale. As shown below.
-![alt text][image1] {: height="36px" width="36px"}
+![alt text][image1] {: height="25px" width="25px"}
 
 
 ### 2. Identify potential shortcomings with your current pipeline
