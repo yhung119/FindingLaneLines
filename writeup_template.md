@@ -33,8 +33,9 @@ My pipeline to find lane lines consists of 6 steps. (After reading in the image)
 4. Bound the region of interest where the lane lines are.
 5. Apply the hough transform and draw the detected lane lines on the image.
 6. Add weight on the lines to the original image so the lines look more transparent.
-Note: I modified the hough_lines() function to return both the lines and the image. 
-#sample image
+Note: I modified the hough_lines() function to return both the lines and the image.
+
+**sample image
 ![alt text][image2]
 
 To draw the full lines. I modified the draw_lines() function as follows:
@@ -44,7 +45,8 @@ To draw the full lines. I modified the draw_lines() function as follows:
 4. Compute the slope of each side
 5. Compute the top and bottom point according to the slope
 6. Draw the line
-#sample image on test image
+
+**sample image on test image
 ![alt text][image3]
 
 ### 2. Identify potential shortcomings with your current pipeline
