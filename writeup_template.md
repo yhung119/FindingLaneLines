@@ -17,7 +17,7 @@ Goals:
 
 [image2]: ./test_images_output/segmented/segmented_solidWhiteCurve.jpg "Pipeline"
 
-[image3]: ./test_images_ouput/full/full_solidWhiteCurve.jpg "Full line"
+[image3]: .test_images_output/full/full_solidWhiteCurve.jpg "Full line"
 
 ---
 
