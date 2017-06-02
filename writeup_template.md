@@ -34,7 +34,7 @@ My pipeline to find lane lines consists of 6 steps. (After reading in the image)
 6. Add weight on the lines to the original image so the lines look more transparent.
 Note: I modified the hough_lines() function to return both the lines and the image.
 
-# sample image
+##### sample image
 ![alt text][image2]
 
 To draw the full lines. I modified the draw_lines() function as follows:
@@ -45,7 +45,7 @@ To draw the full lines. I modified the draw_lines() function as follows:
 5. Compute the top and bottom point according to the slope
 6. Draw the line
 
-# sample image on test image
+##### sample image on test image
 ![alt text][image3]
 
 ### 2. Identify potential shortcomings with your current pipeline
