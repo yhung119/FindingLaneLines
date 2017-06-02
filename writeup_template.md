@@ -27,7 +27,6 @@ Goals:
 
 My pipeline to find lane lines consists of 6 steps. (After reading in the image)
 1. change the image to gray scale. As shown below.
-![alt text][image1] 
 2. Apply Gaussian Blur on the image, using kernel size of 5.
 3. Apply Canny edge detector on the blurred image to get the gradient of pixels.
 4. Bound the region of interest where the lane lines are.
@@ -35,7 +34,7 @@ My pipeline to find lane lines consists of 6 steps. (After reading in the image)
 6. Add weight on the lines to the original image so the lines look more transparent.
 Note: I modified the hough_lines() function to return both the lines and the image.
 
-**sample image
+# sample image
 ![alt text][image2]
 
 To draw the full lines. I modified the draw_lines() function as follows:
@@ -46,7 +45,7 @@ To draw the full lines. I modified the draw_lines() function as follows:
 5. Compute the top and bottom point according to the slope
 6. Draw the line
 
-**sample image on test image
+# sample image on test image
 ![alt text][image3]
 
 ### 2. Identify potential shortcomings with your current pipeline
