@@ -13,7 +13,7 @@ Goals:
 
 [//]: # (Image References)
 
-[image1]: ./test_images_output/gray/gray_solidWhiteCurve.jpg =100x20 "Grayscale"
+[image1]: ./test_images_output/gray/gray_solidWhiteCurve.jpg "Grayscale" {: height="36px" width="36px"}
 
 ---
 
