@@ -13,7 +13,7 @@ Goals:
 
 [//]: # (Image References)
 
-[image1]: ./test_images_output/gray/gray_solidWhiteCurve.jpg "Grayscale"
+[image1]: ./test_images_output/gray/gray_solidWhiteCurve.jpg =100x20 "Grayscale"
 
 ---
 
@@ -21,12 +21,8 @@ Goals:
 
 ### 1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
 
-My pipeline consisted of 5 steps. First, I converted the images to grayscale, then I .... 
-
-In order to draw a single line on the left and right lanes, I modified the draw_lines() function by ...
-
-If you'd like to include images to show how the pipeline works, here is how to include an image: 
-
+My pipeline to find lane lines consists of 7 steps. (After reading in the image)
+1. change the image to gray scale. As shown below.
 ![alt text][image1]
 
 
